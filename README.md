@@ -12,9 +12,13 @@ The associated python dependencies and local model downloads need to be managed 
 
 2. Play around with the sample code supplied with various models on Huggingface, and keep using similar constructs to write your own custom code.
 
+	- Try at least one each of text and vision (image) models, if possible one audio.
+	- For both image and text, try out playing with their raw vector embeddings & content generation from prompts.
+	- A few models I tried were a [cpu version of stable diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) and Microsoft's [Florence 2](https://huggingface.co/microsoft/Florence-2-base) for images, and [miniLM](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) & [Phi 3.5](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx) for text.
+
 3. Once played around for a bit, you'll have several questions on the theory. A good resource to get answers for these questions is the [Huggingface NLP course](https://huggingface.co/learn/nlp-course/chapter0/1?fw=pt).
 
-4. Post that, write some more code leveraging the theoretical knowledge gained in the previous step!
+4. Write some more code leveraging the theoretical knowledge gained in the previous step!
 
 
 <h3>Some key learnings & gotchas:</h3>
