@@ -14,7 +14,8 @@ The associated python dependencies and local model downloads need to be managed 
 
 	- Try at least one each of text and vision (image) models, if possible one audio.
 	- For both image and text, try out playing with their raw vector embeddings & content generation from prompts.
-	- A few models I tried were a [cpu version of stable diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) and Microsoft's [Florence 2](https://huggingface.co/microsoft/Florence-2-base) for images, and [miniLM](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) & [Phi 3.5](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx) for text.
+	- A few models I tried were a [cpu version of stable diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) and Microsoft's [Florence 2](https://huggingface.co/microsoft/Florence-2-base) for images, and [miniLM](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) & [Phi 3 mini](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-onnx) for text.
+	- A good tutorial on using Phi3-mini that I referenced can be found [here](https://onnxruntime.ai/docs/genai/tutorials/phi3-python.html#run-on-cpu).
 
 3. Once played around for a bit, you'll have several questions on the theory. A good resource to get answers for these questions is the [Huggingface NLP course](https://huggingface.co/learn/nlp-course/chapter0/1?fw=pt).
 
